@@ -30,6 +30,17 @@
 #define JZStrongSelf(type)  __strong typeof(type) type = weak##type;
 
 // View layer
+
+#define JZViewRadius(View, Radius)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];
+
+#define JZViewBorder(View, Width, Color)\
+\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
 #define JZViewBorderRadius(View, Radius, Width, Color)\
 \
 [View.layer setCornerRadius:(Radius)];\

@@ -25,6 +25,10 @@
 		198D9CCA1D31072600C5A552 /* UIView+JZGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 198D9CBE1D31072600C5A552 /* UIView+JZGradient.m */; };
 		198D9CCB1D31072600C5A552 /* UIView+JZPositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 198D9CC01D31072600C5A552 /* UIView+JZPositioning.m */; };
 		198D9CCC1D31072600C5A552 /* UIView+JZSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 198D9CC21D31072600C5A552 /* UIView+JZSnapshot.m */; };
+		1996BC331D31EF5D0046A193 /* NSObject+JZGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996BC321D31EF5D0046A193 /* NSObject+JZGif.m */; };
+		1996BC361D31F1660046A193 /* NSObject+AudioComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996BC351D31F1660046A193 /* NSObject+AudioComposite.m */; };
+		1996BC391D31F4650046A193 /* NSString+JZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996BC381D31F4650046A193 /* NSString+JZHash.m */; };
+		1996BC3F1D31F6420046A193 /* NSArray+JZEnumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1996BC3E1D31F6420046A193 /* NSArray+JZEnumeration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,14 @@
 		198D9CC01D31072600C5A552 /* UIView+JZPositioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JZPositioning.m"; sourceTree = "<group>"; };
 		198D9CC11D31072600C5A552 /* UIView+JZSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JZSnapshot.h"; sourceTree = "<group>"; };
 		198D9CC21D31072600C5A552 /* UIView+JZSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JZSnapshot.m"; sourceTree = "<group>"; };
+		1996BC311D31EF5D0046A193 /* NSObject+JZGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JZGif.h"; sourceTree = "<group>"; };
+		1996BC321D31EF5D0046A193 /* NSObject+JZGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JZGif.m"; sourceTree = "<group>"; };
+		1996BC341D31F1660046A193 /* NSObject+AudioComposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AudioComposite.h"; sourceTree = "<group>"; };
+		1996BC351D31F1660046A193 /* NSObject+AudioComposite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AudioComposite.m"; sourceTree = "<group>"; };
+		1996BC371D31F4650046A193 /* NSString+JZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JZHash.h"; sourceTree = "<group>"; };
+		1996BC381D31F4650046A193 /* NSString+JZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JZHash.m"; sourceTree = "<group>"; };
+		1996BC3D1D31F6420046A193 /* NSArray+JZEnumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JZEnumeration.h"; sourceTree = "<group>"; };
+		1996BC3E1D31F6420046A193 /* NSArray+JZEnumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JZEnumeration.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,14 +190,22 @@
 			children = (
 				198D9CAD1D31072600C5A552 /* JZConstantBlocks.h */,
 				198D9CAE1D31072600C5A552 /* JZFounation.h */,
+				1996BC3D1D31F6420046A193 /* NSArray+JZEnumeration.h */,
+				1996BC3E1D31F6420046A193 /* NSArray+JZEnumeration.m */,
 				198D9CAF1D31072600C5A552 /* NSArray+JZSafeArray.h */,
 				198D9CB01D31072600C5A552 /* NSArray+JZSafeArray.m */,
 				198D9CB11D31072600C5A552 /* NSMutableArray+JZSafeMutableArray.h */,
 				198D9CB21D31072600C5A552 /* NSMutableArray+JZSafeMutableArray.m */,
 				198D9CB31D31072600C5A552 /* NSMutableDictionary+JZSafeDictionary.h */,
 				198D9CB41D31072600C5A552 /* NSMutableDictionary+JZSafeDictionary.m */,
+				1996BC341D31F1660046A193 /* NSObject+AudioComposite.h */,
+				1996BC351D31F1660046A193 /* NSObject+AudioComposite.m */,
+				1996BC311D31EF5D0046A193 /* NSObject+JZGif.h */,
+				1996BC321D31EF5D0046A193 /* NSObject+JZGif.m */,
 				198D9CB51D31072600C5A552 /* NSString+JZExtention.h */,
 				198D9CB61D31072600C5A552 /* NSString+JZExtention.m */,
+				1996BC371D31F4650046A193 /* NSString+JZHash.h */,
+				1996BC381D31F4650046A193 /* NSString+JZHash.m */,
 				198D9CB71D31072600C5A552 /* NSUserDefaults+JZUserDefault.h */,
 				198D9CB81D31072600C5A552 /* NSUserDefaults+JZUserDefault.m */,
 				198D9CB91D31072600C5A552 /* UIImage+JZTransforms.h */,
@@ -338,10 +358,14 @@
 				198D9CC51D31072600C5A552 /* NSMutableDictionary+JZSafeDictionary.m in Sources */,
 				198D9C811D31070D00C5A552 /* ViewController.m in Sources */,
 				198D9CC91D31072600C5A552 /* UILabel+JZAttributedText.m in Sources */,
+				1996BC361D31F1660046A193 /* NSObject+AudioComposite.m in Sources */,
+				1996BC391D31F4650046A193 /* NSString+JZHash.m in Sources */,
 				198D9CC31D31072600C5A552 /* NSArray+JZSafeArray.m in Sources */,
 				198D9CCA1D31072600C5A552 /* UIView+JZGradient.m in Sources */,
 				198D9CC61D31072600C5A552 /* NSString+JZExtention.m in Sources */,
 				198D9CC71D31072600C5A552 /* NSUserDefaults+JZUserDefault.m in Sources */,
+				1996BC331D31EF5D0046A193 /* NSObject+JZGif.m in Sources */,
+				1996BC3F1D31F6420046A193 /* NSArray+JZEnumeration.m in Sources */,
 				198D9C7E1D31070D00C5A552 /* AppDelegate.m in Sources */,
 				198D9C7B1D31070D00C5A552 /* main.m in Sources */,
 				198D9CC41D31072600C5A552 /* NSMutableArray+JZSafeMutableArray.m in Sources */,
@@ -570,6 +594,7 @@
 				198D9CA51D31070E00C5A552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		198D9CA61D31070E00C5A552 /* Build configuration list for PBXNativeTarget "JZFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +603,7 @@
 				198D9CA81D31070E00C5A552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		198D9CA91D31070E00C5A552 /* Build configuration list for PBXNativeTarget "JZFoundationUITests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +612,7 @@
 				198D9CAB1D31070E00C5A552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
