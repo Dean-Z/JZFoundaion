@@ -66,7 +66,7 @@
 		198D9C9E1D31070E00C5A552 /* JZFoundationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZFoundationUITests.m; sourceTree = "<group>"; };
 		198D9CA01D31070E00C5A552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		198D9CAD1D31072600C5A552 /* JZConstantBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZConstantBlocks.h; sourceTree = "<group>"; };
-		198D9CAE1D31072600C5A552 /* JZFounation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFounation.h; sourceTree = "<group>"; };
+		198D9CAE1D31072600C5A552 /* JZFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFoundation.h; sourceTree = "<group>"; };
 		198D9CAF1D31072600C5A552 /* NSArray+JZSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JZSafeArray.h"; sourceTree = "<group>"; };
 		198D9CB01D31072600C5A552 /* NSArray+JZSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JZSafeArray.m"; sourceTree = "<group>"; };
 		198D9CB11D31072600C5A552 /* NSMutableArray+JZSafeMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+JZSafeMutableArray.h"; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				198D9CAD1D31072600C5A552 /* JZConstantBlocks.h */,
-				198D9CAE1D31072600C5A552 /* JZFounation.h */,
+				198D9CAE1D31072600C5A552 /* JZFoundation.h */,
 				1996BC3D1D31F6420046A193 /* NSArray+JZEnumeration.h */,
 				1996BC3E1D31F6420046A193 /* NSArray+JZEnumeration.m */,
 				198D9CAF1D31072600C5A552 /* NSArray+JZSafeArray.h */,

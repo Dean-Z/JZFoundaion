@@ -9,7 +9,7 @@
 #import "NSObject+JZGif.h"
 #import <ImageIO/ImageIO.h>
 #import <MobileCoreServices/MobileCoreServices.h>
-#import "JZFounation.h"
+#import "JZFoundation.h"
 
 @implementation NSObject (JZGif)
 

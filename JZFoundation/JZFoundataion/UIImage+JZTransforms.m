@@ -7,7 +7,7 @@
 //
 
 #import "UIImage+JZTransforms.h"
-#import "JZFounation.h"
+#import "JZFoundation.h"
 
 @implementation UIImage (JZTransforms)
 

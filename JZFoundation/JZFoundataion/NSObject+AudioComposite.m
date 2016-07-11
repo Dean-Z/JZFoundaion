@@ -7,7 +7,7 @@
 //
 
 #import "NSObject+AudioComposite.h"
-#import "JZFounation.h"
+#import "JZFoundation.h"
 #include <stdio.h>
 #include <sys/time.h>
 
